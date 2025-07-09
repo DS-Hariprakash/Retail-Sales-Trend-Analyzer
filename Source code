@@ -6,7 +6,6 @@ import seaborn as sns
 import plotly.express as px
 from statsmodels.tsa.arima.model import ARIMA
 from prophet import Prophet
-
 # Streamlit UI Setup
 st.title("Retail Sales Trend Analyzer")
 st.sidebar.header("Upload Sales Data")
