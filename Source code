@@ -62,7 +62,6 @@ if uploaded_file:
     st.write("- Plan promotional campaigns based on seasonality trends.")
     st.write("- Adjust inventory levels based on forecasted demand.")
 
-
     # Report Generation
     if st.button("Download Report"):
         report_csv = forecast[['ds', 'yhat']].to_csv(index=False)
